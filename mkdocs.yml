@@ -1,1 +1,27 @@
-site_name: My Docs
+site_name: Пробуждение
+
+nav:
+    - Домой: index.md
+    - Дивный новый мир:
+        - Карта мира: brave-new-world/maps.md
+        - Пробудившиеся: brave-new-world/awakened.md
+        - Среда: brave-new-world/environment.md
+        - Аномалии: brave-new-world/anomalies.md
+        - Люди: brave-new-world/people.md
+        - Экспедиции: brave-new-world/expeditions.md
+        - Конструктор монстров: brave-new-world/monsters.md
+        - Защищённые аванпосты: brave-new-world/outpost.md
+    - Дети подземелья:
+        - Персонажи: children/characters.md
+        - Риски и опасности: children/fighting.md
+        - Экспедиционные правила: children/equipment.md
+        - Дополнительные правила: children/appendix.md
+        
+plugins:
+  - search:
+      lang: ru
+      
+markdown_extensions:
+    - toc:
+        permalink: 
+    - attr_list
