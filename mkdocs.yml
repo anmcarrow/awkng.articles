@@ -3,25 +3,83 @@ site_name: Пробуждение
 nav:
     - Домой: index.md
     - Дивный новый мир:
-        - Карта мира: brave-new-world/maps.md
-        - Пробудившиеся: brave-new-world/awakened.md
-        - Среда: brave-new-world/environment.md
-        - Аномалии: brave-new-world/anomalies.md
-        - Люди: brave-new-world/people.md
-        - Экспедиции: brave-new-world/expeditions.md
-        - Конструктор монстров: brave-new-world/monsters.md
-        - Защищённые аванпосты: brave-new-world/outpost.md
+        - Карта мира: maps/maps.md
+        - Ключевые характерстики: maps/maps_characteristics.md
+        - Картографические сетки: maps/maps_grids.md
+        - Типы местности: maps/maps_terrain.md
+        - Примечательные объекты: maps/maps_objects.md
+        - Наполнение карты: maps/maps_filling.md
+        - Доводка и художественное оформление: maps/maps_tweaking.md
+        - Игроки и карта: maps/maps_players.md
+        - Пробудившиеся: awakened/awakened.md
+        - Их происхождение: awakened/awakened_origins.md
+        - Их речь: awakened/awakened_speech.md
+        - Их цели: awakened/awakened_goals.md
+        - Их трудности: awakened/awakened_severities.md
+        - Их инструменты: awakened/awakened_tools.md
+        - Депопуляция: depopulation/depopulation.md
+        - Среда: environment/environment.md
+        - Нечеловечески и прекрасно: environment/environment_inhumanly.md
+        - Игра в экологию: environment/environment_ecology.md
+        - Пищевая совместимость: environment/environment_compatibility.md
+        - Сезонные колебания: environment/environment_fluctuations.md
+        - Хищники и травоядные: environment/environment_predators.md
+        - Водные твари: environment/environment_water.md
+        - Ползучая мелочь: environment/environment_rambling.md
+        - Неофлора: environment/environment_neoflora.md
+        - Микробиота: environment/environment_microbiota.md
+        - Живые анахронизмы: environment/environment_anachronisms.md
+        - Целевые конструкты: environment/environment_constructs.md
+        - Быстрая адаптация: environment/environment_adaptation.md
+        - Мета-заимствования: environment/environment_borrowing.md
+        - Анклавы и эндемики: environment/environment_enclaves.md
+        - Аномалии: anomalies/anomalies.md
+        - Базовые принципы: anomalies/anomalies_base.md
+        - Одиночные флуктуации и области искажений: anomalies/anomalies_fluctuations.md
+        - Аномальные артефакты: anomalies/anomalies_artifacts.md
+        - Конструирование аномалий и артефактов: anomalies/anomalies_construction.md
+        - Люди: people/people.md
+        - Обитатели Бункера: people/people_inhabitant.md
+        - Дикари: people/people_savages.md
+        - Экспедиции: expeditions/expeditions.md
+        - Экспедиционная петля: expeditions/expeditions_loop.md
+        - Оперативные задачи: expeditions/expeditions_tasks.md
+        - Мотивация и постановка задач: expeditions/expeditions_motivation.md
+        - Сбор информации: expeditions/expeditions_information.md
+        - Подбор снаряжения: expeditions/expeditions_equipment.md
+        - Погодная обстановка: expeditions/expeditions_weather.md
+        - Материальное обеспечение: expeditions/expeditions_material.md
+        - Выбор пути: expeditions/expeditions_path.md
+        - Движение по маршруту: expeditions/expeditions_motion.md
+        - Уменьшение скорости движения: expeditions/expeditions_velocity.md
+        - Расходуемые ресурсы: expeditions/expeditions_resources.md
+        - Истощение, голод и жажда: expeditions/expeditions_exhaustion.md
+        - Марш-броски: expeditions/expeditions_march.md
+        - О блужданиях и потере курса: expeditions/expeditions_wandering.md
+        - Прочёсывание местности: expeditions/expeditions_combing.md
+        - Случайные события в пути: expeditions/expeditions_events.md
+        - Реквизиция: expeditions/expeditions_requisition.md
+        - Конструктор монстров: monsters/monsters.md
+        - Защищённые аванпосты: outpost/outpost.md
+        - Базовая экономика: outpost/outpost_economics.md
+        - Принципиальные недостатки: outpost/outpost_limitations.md
+        - Модульные улучшения: outpost/outpost_improvements.md  
+        - Происшествия и угрозы: outpost/outpost_incidents.md
     - Дети подземелья:
-        - Персонажи: children/characters.md
-        - Риски и опасности: children/fighting.md
-        - Экспедиционные правила: children/equipment.md
-        - Дополнительные правила: children/appendix.md
-        
+        - Персонажи: characters/characters.md
+        - Значимое Прошлое: characters/characters_past.md
+        - Базовые атрибуты: characters/characters_attributes.md
+        - Здоровье и пункты прочности: characters/characters_health.md
+        - Значимый опыт: characters/characters_experience.md
+        - Уровни развития: characters/characters_levels.md
+        - Риски и опасности: risks/risks.md
+        - Боестолкновения: fighting/fighting.md
+        - Снаряжение и экипировка: equipment/equipment_base.md
+        - Вооружение и средства защиты: equipment/equipment_arm.md
+        - Спутники: appendix/appendix_companions.md
+        - Ужас: appendix/appendix_horror.md
+        - Выгорание: appendix/appendix_burnout.md
+        - Мутации: appendix/appendix_mutations.md
 plugins:
   - search:
       lang: ru
-      
-markdown_extensions:
-    - toc:
-        permalink: 
-    - attr_list
