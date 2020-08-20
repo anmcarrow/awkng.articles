@@ -8,6 +8,6 @@
 - [Официальный Discord-сервер](https://discord.gg/SxzmwyU)
 - [Страница на DTRPG](https://www.drivethrurpg.com/browse.php?keywords=%D0%BF%D1%80%D0%BE%D0%B1%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5&manufacturers_id=16976&x=0&y=0&author=&artist=&pfrom=&pto=)
 
-#### Внести свою лепту в материалы этой справочной страницы вы можете через Github:
+##### Внести свою лепту или прислать замечания вы можете через Github:
 - <https://github.com/anmcarrow/awkng.articles>
 
