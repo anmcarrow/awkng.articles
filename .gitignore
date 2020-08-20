@@ -1,5 +1,3 @@
-~.*
-*.save
-*.swp
-site/
-docs/
+~.* 
+*.save 
+*.swp 
