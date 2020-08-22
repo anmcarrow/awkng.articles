@@ -2,13 +2,14 @@ version: 2
 
 jobs:
  deploy:
-   machine:
-     enabled: true
+   docker:
+     - image: anmcarrow/ssh-client:latest
+   resource_class: small
    steps:
      - run:
          name: Deploy Over SSH
          command: |
-           ssh -t $SSH_USER@$SSH_HOST "docker exec -ti awkng_srd /mkdocs/update.sh"
+           ssh -o StrictHostKeyChecking=no -t $SSH_USER@$SSH_HOST "docker exec -ti awkng_srd /mkdocs/update.sh"
 
 workflows:
   version: 2
